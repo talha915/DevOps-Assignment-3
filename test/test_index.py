@@ -31,3 +31,4 @@ def test_read_item_not_found():
     response = client.get(f"/items/{item_id}")
     assert response.status_code == 200
     assert response.json() == {"result": "Not found"}
+
