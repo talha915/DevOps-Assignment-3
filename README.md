@@ -43,3 +43,5 @@ Run the tests using pytest:
 Build the Docker image and run the container:
 - docker build -t your-docker-image-name .
 - docker run -p 8000:8000 your-docker-image-name
+
+The FastAPI application will be accessible at http://localhost:8000.
