@@ -1,1 +1,5 @@
 test.pem
+.env
+.path
+config.sh
+env.sh
