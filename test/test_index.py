@@ -25,4 +25,4 @@ def test_search_item_found():
 def test_search_item_not_found():
     response = client.get("/items/2")
     assert response.status_code == 200
-    assert response.json() == {"result": ["Not found"]}
+    assert response.json() == {"result": "Not found"}
