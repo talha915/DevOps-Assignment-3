@@ -34,3 +34,12 @@ Run the FastAPI application:
 - GET /: Hello message from FastAPI.
 - POST /items/: Create a new item.
 - GET /items/{item_id}: Search for an item by ID.
+
+## Running Tests
+Run the tests using pytest:
+- pytest
+
+## Docker
+Build the Docker image and run the container:
+- docker build -t your-docker-image-name .
+- docker run -p 8000:8000 your-docker-image-name
