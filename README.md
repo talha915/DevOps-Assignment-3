@@ -23,11 +23,14 @@ cd Devops-Assignment-3
 pip install -r requirements.txt
 
 ## Usage
+
 Run the FastAPI application:
+
 ```bash
 uvicorn app.index:app --host 0.0.0.0 --port 8000
 
 ## API Endpoints
+
 - GET /: Hello message from FastAPI.
 - POST /items/: Create a new item.
 - GET /items/{item_id}: Search for an item by ID.
