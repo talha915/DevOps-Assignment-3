@@ -17,7 +17,29 @@ This is a simple FastAPI project showcasing CRUD operations with an in-memory da
 
 To run this project locally, you need to have Python and pip installed. Clone the repository and install the dependencies:
 
-```bash
-git clone https://github.com/talha915/Devops-Assignment-3
-cd Devops-Assignment-3
-pip install -r requirements.txt
+
+- git clone https://github.com/talha915/Devops-Assignment-3
+- cd Devops-Assignment-3
+- pip install -r requirements.txt
+
+## Usage
+
+Run the FastAPI application:
+
+
+- uvicorn app.index:app --host 0.0.0.0 --port 8000
+
+## API Endpoints
+
+- GET /: Hello message from FastAPI.
+- POST /items/: Create a new item.
+- GET /items/{item_id}: Search for an item by ID.
+
+## Running Tests
+Run the tests using pytest:
+- pytest
+
+## Docker
+Build the Docker image and run the container:
+- docker build -t your-docker-image-name .
+- docker run -p 8000:8000 your-docker-image-name
