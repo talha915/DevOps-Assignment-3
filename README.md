@@ -17,7 +17,7 @@ This is a simple FastAPI project showcasing CRUD operations with an in-memory da
 
 To run this project locally, you need to have Python and pip installed. Clone the repository and install the dependencies:
 
-```bash
+bash
 git clone https://github.com/talha915/Devops-Assignment-3
 cd Devops-Assignment-3
 pip install -r requirements.txt
