@@ -23,5 +23,6 @@ def create_item(item: Item):
 
 @app.get("/items/{item_id}")
 def search_item(item_id: int):
-    searched_items = [item if item.get('id')==item_id else 'Not found' for item in item_list]
+    searched_items = [item for item in item_list if item.get('id')==item_id]
+    searched_items = searched_items if len(searched_items) > 0 else 'Not found' 
     return {"result": searched_items}
