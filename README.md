@@ -39,6 +39,7 @@ Run the FastAPI application:
 Run the tests using pytest:
 - pytest
 
+
 ## Docker
 Build the Docker image and run the container:
 - docker build -t your-docker-image-name .
